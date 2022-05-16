@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=800, initial-scale=1.0">
+    <title>Window.exe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <div class="block-nav" id="nav-block">
+        <h1 class="title" id="titel">Window.exe</h1>
+    </div>
+    <nav> 
+        <div class="menu-btn">
+            <div class="line line--1"></div>
+            <div class="line line--2"></div>
+            <div class="line line--3"></div>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html" class="link">Home</a>
+            <a href="#test" class="link">Jquery</a>
+            <a href="" class="link">Profile</a>
+            <a href="https://www.instagram.com/alexey_helpme/" class="fa fa-instagram"></a>
+            <a href="https://www.snapchat.com/add/alexpaukid200?share_id=K77tSU3eAEg&locale=en-US" class="fa fa-snapchat-ghost"></a>
+            <a href="https://twitter.com/garbagee_chan" class="fa fa-twitter"></a>
+        </div>
+
+
+
+        <div class="block-1"></div>
+        <div class="block-2"></div>
+    </nav>
+
+<section>
+    <div class="box-box">
+        <div id="title">
+            <p>Welcome to &ThinSpace;<span class="app"></span></p>
+        </div>
+    
+        <!-- Window.exe Frame -->
+        <div class="parent">
+            <div class="div1">
+                <div class="window-frame">
+                    <div class="title-bar">
+                        <span>Window.exe</span> 
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="window-body">
+                        <h1>Windows</h1>
+                        <img src="./icons8-windows-10-120.png" alt="icon" style="position: relative; bottom: 30px;">
+                    </div>
+                </div>
+            </div>
+            <div class="div2">
+                <h1>Fancy</h1>
+                <h2>Window.exe to my right is actually moveble. Just drag around it like a normal tab...</h2>
+            </div>
+        </div>
+    </div>
+    
+
+    
+</section>
+
+    <div class="test" id="test">
+        <div class="parent-2">
+            <div class="div1-2"><h1 style="text-align: center; color: black; font-size: 50px;">Draggable Window.exe</h1></div>
+            <div class="div2-2">
+                <h3 class="code-1"></h3>
+                <h3 class="code-2"></h3>
+                <h3 class="code-6"></h3>
+                <h3 class="code-3"></h3>
+                <h3 class="code-4"></h3>
+                <h3 class="code-5"></h3>
+            </div>
+            <div class="div3-2"><h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam ea illum itaque sit necessitatibus! Dicta, doloribus. Enim maiores neque cupiditate vitae nihil nostrum sequi aliquid, doloribus inventore! Quos, sed doloribus.</h3></div>
+            </div>
+    </div>
+
+    
+    <!-- Scripts -->
+    <script src="https://app.enzuzo.com/apps/enzuzo/static/js/__enzuzo-cookiebar.js?uuid=ecb20d5a-b3ed-11ec-a58c-0b37b9dad3e4"></script>
+    <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Jquery script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( ".window-frame" ).draggable({
+        revert: true,
+        cancel: '.window-body'
+      });
+        
+    } );
+    </script>
+</body>
+</html>
